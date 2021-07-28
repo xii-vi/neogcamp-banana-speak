@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FCE029;
+    --width-break: 600px
+}
+
+body {
+    font-family: 'Otomanopee-One', sans-serif;
+    margin: 0px;
+    font-size: large;
+    background-color: #0A75BC;
+    line-height: 1.4;
+}
+
+
+.navigation {
+
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: large;
+    text-shadow: rgb(10, 117, 188) 1px 1px 0px, rgb(192, 143, 24) 2px 2px 0px, rgb(68, 68, 68) 3px 3px 0px, rgb(10, 117, 188) 4px 4px 0px, rgb(10, 117, 188) 5px 5px 0px, rgb(10, 117, 188) 6px 6px 0px, rgb(153, 153, 153) 5px 5px 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+
+}
+
+.list-non-bullet {
+
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.hero-img {
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 18vh;
+}
+
+.footer .footer-heading {
+    text-shadow: rgb(10, 117, 188) 1px 1px 0px, rgb(192, 143, 24) 2px 2px 0px, rgb(68, 68, 68) 3px 3px 0px, rgb(10, 117, 188) 4px 4px 0px, rgb(10, 117, 188) 5px 5px 0px, rgb(10, 117, 188) 6px 6px 0px, rgb(153, 153, 153) 5px 5px 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.footer .links {
+    color: white;
+}
+
+.footer ul {
+    margin-bottom: 0px;
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+
+.txtarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+}
+
+.btn {
+    text-align: center;
+    padding: 1rem;
+}
+
+.output {
+    box-sizing: border-box;
+    width: 100%;
+    /* min-height: 10vh;
+    max-height: 20vh; */
+    height: 20vh;
+    overflow: scroll;
+    border: 1px solid black;
+    background-color: white;
+    align-self: center;
+} 
