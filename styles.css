@@ -53,8 +53,8 @@ main {
     text-align: center;
     color: white;
     bottom: 0px;
-    /* position: fixed;
-    width: 100%; */
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -63,7 +63,7 @@ main {
     display: block;
     position: absolute;
     right: 0px;
-    bottom: 18vh;
+    bottom: 17vh;
 }
 
 .footer .footer-heading {
