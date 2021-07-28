@@ -53,9 +53,9 @@ main {
     text-align: center;
     color: white;
     bottom: 0px;
-    position: fixed;
+    /* position: fixed;
     width: 100%;
-}
+} */
 
 
 .hero-img {
